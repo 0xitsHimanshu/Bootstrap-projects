@@ -14,6 +14,9 @@
     <!-- bootstrap css end -->
     <!-- link end -->
     
+    <!-- icon pack script -->
+    <script src="https://kit.fontawesome.com/94b68a0c09.js" crossorigin="anonymous"></script>
+    <!-- icon pack script end -->
     <!-- title -->
     <title>Document</title>
     <!-- title end -->
@@ -21,15 +24,52 @@
 <body>
     
     <!-- navbar -->
-    <nav class="nav navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand">AnimeSource</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation" >
-                <span class="navbar-toggler-icon"></span>
+            <span class="navbar-brand mb-0 h1 fs-1">AnimeSource</span>
+          
+          <!-- search section -->
+          <div class="float-end">
+            <form class="d-flex" role="search" >
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </div>
+          <!-- search secetion end -->
+
+        </div>
+      </nav>
+    <!-- navbar end -->
+
+    <section class="carouselExampleFade">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://wallpapercave.com/wp/wp5170619.jpg" alt="---" class="d-block w-100">
+                </div>
+                <div class="carousel-item active">
+                    <img src="https://wallpapercave.com/wp/wp5286675.jpg" alt="---" class="d-block w-100">
+                </div>
+                <div class="carousel-item active">
+                    <img src="https://wallpapercave.com/wp/wp6148068.jpg" alt="---" class="d-block w-100">
+                </div>
+                <div class="carousel-item active">
+                    <img src="https://wallpapercave.com/wp/wp6260776.jpg
+                    " alt="---" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </nav>
-    <!-- navbar end -->
+    </section>
     <!-- script -->
 
     <!-- bootstrap script -->
