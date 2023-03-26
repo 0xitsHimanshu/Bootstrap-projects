@@ -1,10 +1,13 @@
-@media only screen and (max-width:480px) {
+body{
+    background-color: antiquewhite !important;
+}
+@media screen and (max-width:400px){
     .carousel-inner{
-        height: 320px;
+        height: 100px;
     }
 }
 .carousel-inner{
-    height: 350px;
+    height: 325px;
 }
 .carousel-item, img{
     height: 100% !important;
